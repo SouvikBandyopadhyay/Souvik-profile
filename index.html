@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souvik Bandyopadhyay</title>
+    <link rel="stylesheet" href="static/css/base.css">
+
+  </head>
+<body  onload="initialfunction()">
+    
+    <div class="navbar" id="navbar">
+        <ul>
+            <a href="#home"><li><img src="static/imgs/homebtn.png" alt=""></li></a>
+            <a href="#skills"><li><img src="static/imgs/skills.png" alt=""></li></a>
+            <a href="#vision"><li><img src="static/imgs/eye-1915455.png" alt=""></li></a>
+            <a href="#projects"><li><img src="static/imgs/badge-2024646.png" alt=""></li></a>
+            <a href="#academics"><li><img src="static/imgs/ACADEMICS.png" alt=""></li></a>
+            <a href="#about"><li><img src="static/imgs/user-1633249.png" alt=""></li></a>
+        </ul>
+    </div>
+    <div class="contains">
+        <div id="home" class="division">
+        <div id="header">
+        <div id="fontprofile">
+            <img src="static/imgs/frontprofile.jpg" alt="Souvik Bandyopadhyay" onclick="window.open(this.src)">
+        </div>
+        <div id="profiledetails">
+            <div class="nameinfo">
+                <h2>Hi, I'm</h2>
+                <h1>SOUVIK</h1>
+                <H1>BANDYOPADHYAY</H1>
+                <P>&lt; CODER, WEB DESIGNE AND DEVELOPER &gt;</P>
+            </div>
+            <DIV class="hirebtn"><button onclick="openhirefloating()">HIRE ME</button></DIV>
+        </div>
+        </div>
+        <div class="socialmedia">
+        <ul>
+            <a href="https://www.facebook.com/souvik.bandyopadhyay.92/" target="_blank"><li><img src="static/imgs/facebook.png" alt=""></li></a>
+            <a href="https://www.instagram.com/rizorock/" target="_blank"><li><img src="static/imgs/instagram.png" alt=""></li></a>
+            <a href="https://twitter.com/SouvikRizo" target="_blank"><li><img src="static/imgs/twitter.png" alt=""></li></a>
+            <a href="https://www.linkedin.com/in/souvik-bandyopadhyay-0719a7196/" target="_blank"><li><img src="static/imgs/linkedin.png" alt=""></li></a>
+            <a href="https://github.com/SouvikBandyopadhyay" target="_blank"><li><img src="static/imgs/github.png" alt=""></li></a>
+            <a href="mailto:souvikbandyopadhyay2000@gmail.com" target="_blank"><li><img src="static/imgs/email.png" alt=""></li></a>
+        </ul>
+
+        </div>
+        </div>
+        <div id="hiremefloating">
+            <div class="hiremeform">
+                <form>
+                    <div>
+                        <h2>Hire Me!</h2>
+                        <input id="close" type="button" value="Close (X)" onclick="closehirefloating()">
+                    </div>
+                    <div>
+                        <input id="formname" type="text" placeholder="Name">
+                        <input id="formcompname" type="text" placeholder="Company Name">
+                    </div>
+                    <div>
+                        <input id="formcontact" type="tel" placeholder="Contact No.">
+                        <input id="formemail" type="email" placeholder="Email ID">                   
+                    </div>
+                    <textarea name="Message" id="formmessage" cols="30" rows="10" style="height: 4rem;" placeholder=" #Message @Hi! there."></textarea>
+
+                    <input id="submit" type="button" value="Submit" placeholder="Submit" onclick="submithireform()">
+                </form>
+            </div>
+
+        </div>
+        
+        <div>
+        <div class="black division">
+            <div class="text-inblack para" id="skills">
+                <h1>SKILLS</h1>
+                <p style="float: right;">*click on item to view description</p>
+                <DIV class="programimg-language skills-content">
+                    <h2>LANGUAGE</h2>
+                    <ul>
+                        <li><img src="static/imgs/language/html.png" alt="" onclick="settheam(1,1)"></li>
+                        <li><img src="static/imgs/language/css.png" alt="" onclick="settheam(1,2)"></li>
+                        <li><img src="static/imgs/language/javascript.png" alt="" onclick="settheam(1,3)"></li>
+                        <li><img src="static/imgs/language/python.png" alt="" onclick="settheam(1,4)"></li>
+                        <li><img src="static/imgs/language/java.png" alt="" onclick="settheam(1,5)"></li>
+                    </ul>
+                </DIV>
+                <div class="description skills-content" id="language-description">
+                    this describes the language
+                </div>
+                <DIV class="framework skills-content">
+                    <h2>FRAMEWORK</h2>
+                    <ul>
+                        <li><img src="static/imgs/language/bootstrap.png" alt="" onclick="settheam(2,1)"></li>
+                        <li><img src="static/imgs/language/jquery.png" alt="" onclick="settheam(2,2)"></li>
+                        <li><img src="static/imgs/language/reactjs.png" alt="" onclick="settheam(2,3)"></li>
+                        <li><img src="static/imgs/language/opencv.png" alt="" onclick="settheam(2,4)"></li>
+                        <li><img src="static/imgs/language/django.png" alt="" onclick="settheam(2,5)"></li>
+                    </ul>
+                </DIV>
+                <div class="description skills-content" id="framework-description">
+                    this describes the framework
+                </div>
+                <DIV class="programimg-tools skills-content">
+                    <h2>TOOLS</h2>
+                    <ul>
+                        <li><img src="static/imgs/language/vscode.png" alt="" onclick="settheam(3,1)"></li>
+                        <li><img src="static/imgs/language/pycharm.jpg" alt="" onclick="settheam(3,2)"></li>
+                        <li><img src="static/imgs/language/Sublime_Text.png" alt="" onclick="settheam(3,3)"></li>
+                        <li><img src="static/imgs/language/postsql.png" alt="" onclick="settheam(3,4)"></li>
+                    </ul>
+                </DIV>
+                <div class="description skills-content" id="tools-description">
+                    this describes the tools
+                </div>
+                <DIV class="soft-skills skills-content">
+                    <h2>SOFT SKILLS</h2>
+                    <ul>
+                        <li><img src="static/imgs/language/word.png" alt="" onclick="settheam(4,1)"></li>
+                        <li><img src="static/imgs/language/powerpoint.png" alt="" onclick="settheam(4,2)"></li>
+                        <li><img src="static/imgs/language/excel.png" alt="" onclick="settheam(4,3)"></li>
+                    </ul>
+                </DIV>
+                <div class="description skills-content" id="softskills-description">
+                    this describes the soft skill
+                </div>
+                <DIV class="nontech-skills skills-content">
+                    <h2>NONTECHNICAL SKILLS</h2>
+                    <ul>
+                        <li><img src="static/imgs/language/camera.png" alt="" onclick="settheam(5,1)"></li>
+                        <li><img src="static/imgs/language/drawing.png" alt="" onclick="settheam(5,2)"></li>
+                    </ul>
+                </DIV>
+                <div class="description skills-content" id="nontechskills-description">
+                    this describes the nontech skill
+                </div>
+            </div>
+        </div>
+        </div>
+   
+        <div id="vision" class="division vision">
+        <div class="vision-heading">
+            <h1>#CODING_A_BETTER_FUTURE</h1>
+        </div>
+        <div class="vision-description">
+            <div><p>The world can be changed by people like us</p></div>
+            <div><p>"Be the change you wish to see in the world"</p></div>
+        </div>
+        <div class="date-time">
+            <div class="clock" id="clock">
+                <div class="section">
+                    <p class="time" id="hours">00</p>
+                    <p class="name">HOURS</p>
+                </div>
+                <div class="section">
+                    <p class="time colon" >:</p>
+                </div>
+                <div class="section">
+                    <p class="time" id="minutes">00</p>
+                    <p class="name">MINUTES</p>
+                </div>
+                <div class="section">
+                    <p class="time colon">:</p>
+                </div>
+                <div class="section">
+                    <p class="time" id="seconds">00</p>
+                    <p class="name">SECONDS</p>
+                </div>
+            </div>
+            <div class="date" id="date">
+                <div class="date-day date-name" id="date-day">
+                    <p>SUN</p>
+                </div>
+                <div class="date-day date-name colon" id="date-day">
+                    <p>:</p>
+                </div>
+                <div class="date-date date-name" id="date-date">
+                    <p>01</p>
+                </div>
+                <!-- <div class="date-day date-name colon" id="date-day">
+                    <p>/</p>
+                </div> -->
+                <div class="date-month date-name" id="date-month">
+                    <p>23</p>
+                </div>
+                <!-- <div class="date-day date-name colon" id="date-day">
+                    <p>/</p>
+                </div> -->
+                <div class="date-year date-name" id="date-year">
+                    <p>4567</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div>
+        <div  class="red division">
+            <div class="text-inred para vision2">
+                <div class="wrapper">
+                    <h1 class="static-text">Being </h1>
+                    <ul class="dynamic-text">
+                        <li><span>Young</span></li>
+                        <li><span>Uniqe</span></li>
+                        <li><span style="font-family: cursive;">Creative</span></li>
+                        <li><span>You</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+
+        <div id="projects" class="division">
+        <div class="project-upper overlay" id="projectoverlay">
+            <div class="project-header"><h1>PROJECTS</h1></div>
+            <div class="project-list ">
+
+                <div class="project-items">
+                    <a href="#more-projects">
+                        <img src="static/imgs/see-more3.png" alt="">
+                        <p>PROJECTS</p>
+                    </a>
+                </div>
+                <div class="project-items">
+                    <a href="#internships">
+                    <img src="static/imgs/see-more2.png" alt="">
+                    <p>INTERNSHIPS</p>
+                    </a>
+                </div>
+                <div class="project-items">
+                    <a href="#courses">
+                    <img src="static/imgs/see-more1.png" alt="">
+                    <p>COURSES</p>
+                    </a>
+                </div>
+                
+
+            </div>
+            </div>
+        </div>
+  
+        <div  class="black division" id="more-projects">
+            <div class="text-inblack para">
+                <div class="div-heading"><h1>PROJECTS</h1></div>
+                <div class="all-projects" >
+                    <div class="item">
+                        <div class="inner">
+                            <h2>STOPWATCH</h2>
+                            <p>Language: HTML, CSS, JS</p>
+                            <P>framework: JQuery</P>
+                            <p class="description1">A STOPWATCH project using JS and JQuery library with dark and light mode, lap time counter and much more</p>
+                            <a href="https://souvikbandyopadhyay.github.io/Stopwatch/">link</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="inner">
+                            <h2>STOPWATCH</h2>
+                            <p>Language: HTML, CSS, JS</p>
+                            <P>framework: JQuery</P>
+                            <p class="description1">A STOPWATCH project using JS and JQuery library with dark and light mode, lap time counter and much more</p>
+                            <a href="https://souvikbandyopadhyay.github.io/Stopwatch/">link</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="inner">
+                            <h2>STOPWATCH</h2>
+                            <p>Language: HTML, CSS, JS</p>
+                            <P>framework: JQuery</P>
+                            <p class="description1">A STOPWATCH project using JS and JQuery library with dark and light mode, lap time counter and much more</p>
+                            <a href="https://souvikbandyopadhyay.github.io/Stopwatch/">link</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="inner">
+                            <h2>STOPWATCH</h2>
+                            <p>Language: HTML, CSS, JS</p>
+                            <P>framework: JQuery</P>
+                            <p class="description1">A STOPWATCH project using JS and JQuery library with dark and light mode, lap time counter and much more</p>
+                            <a href="https://souvikbandyopadhyay.github.io/Stopwatch/">link</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="inner">
+                            <h2>STOPWATCH</h2>
+                            <p>Language: HTML, CSS, JS</p>
+                            <P>framework: JQuery</P>
+                            <p class="description1">A STOPWATCH project using JS and JQuery library with dark and light mode, lap time counter and much more</p>
+                            <a href="https://souvikbandyopadhyay.github.io/Stopwatch/">link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div  class="black" id="internships">
+            <div class="all-internships">
+                <div class="intern-headder"><h1>INTERNSHIPS</h1></div>
+                <div  class="intern-item">
+                    <div class="intern-border"></div>
+                </div>
+                <div  class="intern-item">
+                    <div class="intern-border">
+                        <div class="marker"></div>
+                    </div>
+                    <div class="intern-details">
+                        <div>
+                            <h1>2020</h1>
+                        </div>
+                        <div>
+                            <h1>WEB DEVELOPMENT</h1>
+                            <p>1st Feb - 30th March (8 weeks)</p>
+                            <p>Microsoft (AEP)</p>
+                            <p>Verzeo</p>
+                            <div class="buttons">
+                                <a target="_blank" href="https://drive.google.com/file/d/1X8kINlhi53VkpqL55_yqXkRQVzKOYWj1/view?usp=sharing"><p>Certificate of Internship</p></a>
+                                <a target="_blank" href="https://drive.google.com/file/d/1Vu3pTt8TP4okYOt9yqTYncQUqz2uA_wC/view?usp=sharing"><p>Certificate of Course completion</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="intern-item">
+                    <div class="intern-border"></div>
+                </div>
+                
+                <div  class="intern-item">
+                    <div class="intern-border">
+                        <div class="marker"></div>
+                    </div>
+                    <div class="intern-details">
+                        <div>
+                            <h1>2021</h1>
+                        </div>
+                        <div>
+                            <h1>WEB DEVELOPMENT</h1>
+                            <p>1st Feb - 30th March (8 weeks)</p>
+                            <p>Microsoft (AEP)</p>
+                            <p>Verzeo</p>
+                            <div class="buttons">
+                                <a target="_blank" href="https://drive.google.com/file/d/1X8kINlhi53VkpqL55_yqXkRQVzKOYWj1/view?usp=sharing"><p>Certificate of Internship</p></a>
+                                <a target="_blank" href="https://drive.google.com/file/d/1Vu3pTt8TP4okYOt9yqTYncQUqz2uA_wC/view?usp=sharing"><p>Certificate of Course completion</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div  class="black" id="courses">
+            <div class="course-list">
+                <div class="header"><h1>COURSES</h1></div>
+                <div class="course-item">
+                    <div class="course-header"><h1>Programimg and Data Structure using Python</h1></div>
+                    <div class="course-details">
+                        <p>20/09/2020 - 20/11/2020 (8WEEKS)</p>
+                        <p>NPTEL</p>
+                        <p>Python</p>
+                        <div class="buttons"><a target="_blank" href="https://drive.google.com/file/d/1fwfgBcZ8z397P8AIFc7_p5YhWvZeFHZz/view?usp=sharing"><p>Certificate</p></a></div>
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-header"><h1>Joy of Computing using Python</h1></div>
+                    <div class="course-details">
+                        <p>20/09/2020 - 20/12/2020 (8WEEKS)</p>
+                        <p>NPTEL</p>
+                        <p>Python</p>
+                        <div class="buttons"><a target="_blank" href="https://drive.google.com/file/d/1CVTY4V46QPN6_10dUk3XkKRB2aUnBwYb/view?usp=sharing"><p>Certificate</p></a></div>
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-header"><h1>Technical English for Engineers</h1></div>
+                    <div class="course-details">
+                        <p>20/09/2020 - 20/11/2020 (8WEEKS)</p>
+                        <p>NPTEL</p>
+                        <p>English</p>
+                        <div class="buttons"><a target="_blank" href="https://drive.google.com/file/d/1xnh6iCAYpXEBAjQh-zRT2UrWvQkq_sM8/view?usp=sharing"><p>Certificate</p></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div  class="black" id="academics">
+            <div class="course-list academ">
+                <div class="project-header"><h1>ACADEMICS</h1></div>
+                <div class="timeline">
+                    <div class="left school-name">
+
+                        <div class="details filled">
+                            <h1>2023</h1>
+                            <h1>MAKAUT</h1>
+                            <p>Government College of Engineering and Textile Technology, Serampur</p>
+                            <p>Score: xx%</p>
+                        </div>
+                        <div class="details"></div>
+                        <div class="details filled">
+                            <h1>2016</h1>
+                            <h1>ICSE</h1>
+                            <p>St. Joseph Convent H.S School, Chittaranjan</p>
+                            <p>Score: 82%</p></div>
+                    </div>
+                    <div class="right school-name">
+                        <div class="details"></div>
+                        <div class="details filled">
+                            <h1>2018</h1>
+                            <h1>CBSE</h1>
+                            <p>DAV Public School, Rupnarayanpur</p>
+                            <p>Score: 67%</p>
+                        </div>
+                        <div class="details"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <DIV id="about" class="division about">
+        <!-- <div class="div-heading"><h1>ABOUT ME:</h1></div> -->
+        <div class="biodata">
+            <h2>SOUVIK BANDYOPADHYAY</h2>
+            <p>Male</p>
+            <p id="agedisplay"><span class="numeric" id="year"></span> Years, <span class="numeric" id="month"></span> Months, <span class="numeric" id="day"></span> Days Old</p>
+            <p>English, हिंदी (Hindi), বাংলা (Bengali)</p>
+        </div>
+        </DIV>
+        <div>
+        <div  class="red division">
+            <div class="text-inred para vision2">
+                <div class="deatiled-about">
+                    <div>
+                        <img src="/static/imgs/frontprofile.jpg" alt="">
+                        <div>
+                            <div class="grey-line">
+                                <div style="width: 80%" class="progress">
+                                    <p>Problem Solving</p>
+                                </div>
+                            </div>
+                            <div class="grey-line">
+                                <div style="width: 70%" class="progress">
+                                    <p>Web Development</p>
+                                </div>
+                            </div>
+                            <div class="grey-line">
+                                <div style="width: 70%" class="progress">
+                                    <p>Quick Learner</p>
+                                </div>
+                            </div>
+                            <div class="grey-line">
+                                <div style="width: 85%" class="progress">
+                                    <p>Communication</p>
+                                </div>
+                            </div>
+                            <div class="grey-line">
+                                <div style="width: 75%" class="progress">
+                                    <p>Team Work</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-details">
+                        <h2>
+                            Let Me introduce myself!
+                        </h2>
+                        <div class="typing-effect">
+                            <div class="teminal-head">
+                                <div>
+                                    <div style="background-color: red" class="button"></div>
+                                    <div style="background-color: yellow" class="button"></div>
+                                    <div style="background-color: green" class="button"></div>
+                                </div>
+                            </div>
+                            <div class="textlines">
+                                <div class="line">
+                                    <div class="triangle-right"></div>
+                                    <p>
+                                        I am a Computer Science Engineering Student.
+                                    </p>
+                                </div>
+                                
+                                <div class="line">
+                                    <div class="triangle-right"></div>
+                                    <p>
+                                        6⭐ star in Problem Solving enthusiast in Hacker Rank.
+                                    </p>
+                                </div>
+                                
+                                <div class="line">
+                                    <div class="triangle-right"></div>
+                                    <p>
+                                        Creative Web developer, Designer.
+                                    </p>
+                                </div>
+                                <div class="line">
+                                    <div class="triangle-right"></div>
+                                    <p>
+                                        Hard working individual with a Can Do attitude/
+                                    </p>
+                                </div>
+                                <div class="line">
+                                    <div class="triangle-right"></div>
+                                    <p>
+                                        With years of experience in Python and JavaScript.
+                                    </p>
+                                </div>
+                                <div class="line">
+                                    <div class="triangle-right"></div>
+                                    <p>
+                                        Can be a Great contributer to your company.
+                                    </p>
+                                </div>
+                                <div class="line">
+                                    <div class="triangle-right"></div>
+                                    <p>
+                                        With a eager mindset to work with professional envirenment.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="wrapper click-counter">
+                    <h1> <span id="visits">0</span> Views </h1>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="static/js/base.js"></script>
+</body>
+</html>
