@@ -258,6 +258,7 @@ function closehirefloating(){
 }
 
 function submithireform(){
+    document.getElementById("submit").disable=true;
     var Name=document.getElementById("formname").value;
     var compname=document.getElementById("formcompname").value;
     var contact=document.getElementById("formcontact").value;
@@ -272,12 +273,27 @@ function submithireform(){
         From : "rizorock@gmail.com",
         Subject : "JOB ALERT!!! from:- "+Name,
         Body : "-------Recruter Name__________:- "+Name+" \r\n------____________ Company Name:-___________ "+compname+" \r\n------___________ Contact:-____________ "+contact+" \n--------___________ Email:-____________ "+email+" \n----------___________ Message:-____________ "+message
+        // Attachments : [
+        //     {
+        //         name : "smtpjs.png",
+        //         path:"https://networkprogramming.files.wordpress.com/2017/11/smtpjs.png"
+        //     }]
     }).then(
       message => {
           alert(" Thanks! Successfully Nofitied.");
           closehirefloating();
         }
     );
+
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "rizorock@gmail.com",
+        Password : "upgnwnhqsjdzgoic",
+        To : email,
+        From : "rizorock@gmail.com",
+        Subject : "Thank You",
+        Body : "Thank You for contacting Souvik Bandyopadhyay, we will get back to you as soon as possible."
+    })
 
     
 }
