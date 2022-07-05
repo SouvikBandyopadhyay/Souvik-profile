@@ -77,7 +77,7 @@ html, body{
     background-size: cover;
     /* background-attachment: fixed; */
 }
-#vision{
+#about{
     background-image: url(../imgs/2nddiv.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -86,7 +86,7 @@ html, body{
     background-image: url(../imgs/3rddiv.jpg);
     background-size: cover;
 }
-#about{
+#vision{
     background-image: url(../imgs/4thdiv.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -279,6 +279,7 @@ html, body{
     background-image: radial-gradient(var(--black-color),rgba(0, 0, 0, 0));
     box-shadow: 1rem 1rem 1rem var(--black-color);
     margin-bottom:  2rem;
+    margin-top: 2rem;
 }
 .vision .clock, .vision .date{
     display: flex;
@@ -659,4 +660,135 @@ html, body{
     border-left: 0.75rem solid rgb(51, 255, 0);
     border-bottom: 0.4rem solid transparent;
     margin: 0rem 0.5rem 0rem 0.5rem;
+  }
+  .biodata{
+    color: white;
+}
+
+.biodata h1{
+    padding: 2rem 0rem;
+    font-size: 4rem;
+}
+.profile_name{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+  @media (max-width:820px) {
+        /* nav bar begin */
+    .navbar{
+        height: fit-content;
+        width: 100%;
+        position: fixed;
+        background-color: var(--navbar-color) ;
+    }
+    .navbar img{
+        width: 2rem;
+        height: 2rem;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .navbar li{
+        background-color: var(--navbarbtn-color);
+        padding: 0.5rem;
+        width: fit-content;
+        list-style: none;
+    }
+    .navbar li:hover{
+        background-color: var(--navbarbtn-color-hover);
+    }
+    .contains{
+        padding: 0rem;
+    }
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+    #profiledetails h1, h2, #vision h1, h2{
+        font-size: 27px;
+
+    }
+    #profiledetails{
+        padding: 1rem;
+    }
+    .socialmedia ul{
+        overflow: scroll;
+    }
+    #skills{
+        padding: 1rem;
+    }
+    .skills-content{
+        margin: 1rem 0rem;
+    }
+    .skills-content img {
+        height: 3rem;
+        width: 3rem;
+    }
+    #skills h1{
+        font-size: 2rem;
+    }
+    #skills h2{
+        font-size: 1.5rem;
+    }
+    .vision-heading{
+        padding: 0rem;
+    }
+    .deatiled-about{
+        padding: 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #projects, #projectoverlay{
+        min-height: 22rem;
+        height: fit-content;
+    }
+    .project-header{
+        font-size: 1.2rem;
+    }
+    .project-list{
+        padding: 0rem;
+        /* flex-direction: column;
+        align-items: center; */
+    }
+    .project-items a{
+        font-size: 1rem;
+    }
+    .project-items img{
+        height: 3rem;
+        width: 4rem;
+    }
+    .all-projects{
+        display: block;
+    }
+    .all-internships{
+        padding: 0rem;
+    }
+    .intern-details h1{
+        font-size: 1.5rem;
+    }
+    .all-internships .intern-border, .intern-border .marker{
+        min-height: 0.5rem;
+        min-width: 1.5rem;
+    }
+    .course-list{
+        padding: 1rem 0rem;
+    }
+    .vision2 .wrapper{
+        padding: 2rem 0rem;
+    }
+    .about .biodata{
+        padding: 2.5rem 1.5rem;
+    }
+    .profile_name{
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .profile_name h2{
+        font-size: 38px;
+
+    }
+    
   }
