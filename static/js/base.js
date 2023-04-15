@@ -155,7 +155,7 @@ function currentdate(){
     let bday=new Date("2/2/2000");
     let diff=Math.abs(nowtime-bday);
     let days=Math.ceil(diff/(1000*60*60*24));
-    console.log(days);
+    
     let yeard=Math.floor(days/365.25);
     let mond=Math.floor((days%365.25)/30.5);
     let dayd=Math.floor((days%365.25)%30.5);
@@ -239,7 +239,6 @@ function currentdate(){
 }
 
 function updatecounter(){
-    console.log("api");
     fetch('https://api.countapi.xyz/update/profile/resume/?amount=1')
         .then(function(res) { 
             return res.json()
@@ -296,4 +295,8 @@ function submithireform(){
     })
 
     
+}
+
+function clickedOnTech(e){
+    window.open('http://google.com/search?q='+e.innerText);
 }

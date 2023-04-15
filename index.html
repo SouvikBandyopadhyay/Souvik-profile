@@ -22,7 +22,7 @@
         </ul>
     </div>
     <div class="contains">
-        <div id="home" class="division">
+        <div id="home" class="home division">
         <div id="header">
         <div id="fontprofile">
             <img src="static/imgs/frontprofile.jpg" alt="Souvik Bandyopadhyay" onclick="window.open(this.src)">
@@ -74,120 +74,40 @@
         
         <div>
         <div class="black division">
-            <div class="text-inblack para" id="skills">
+            <div class="text-inblack para skills" id="skills">
                 <h1>SKILLS</h1>
-                <p style="float: right;">*click on item to view description</p>
-                <DIV class="programimg-language skills-content">
-                    <h2>LANGUAGE</h2>
-                    <ul>
-                        <li><img src="static/imgs/language/html.png" alt="" onclick="settheam(1,1)"></li>
-                        <li><img src="static/imgs/language/css.png" alt="" onclick="settheam(1,2)"></li>
-                        <li><img src="static/imgs/language/javascript.png" alt="" onclick="settheam(1,3)"></li>
-                        <li><img src="static/imgs/language/python.png" alt="" onclick="settheam(1,4)"></li>
-                        <li><img src="static/imgs/language/java.png" alt="" onclick="settheam(1,5)"></li>
-                    </ul>
-                </DIV>
-                <div class="description skills-content" id="language-description">
-                    this describes the language
-                </div>
-                <DIV class="framework skills-content">
-                    <h2>FRAMEWORK / LIBRARY</h2>
-                    <ul>
-                        <li><img src="static/imgs/language/bootstrap.png" alt="" onclick="settheam(2,1)"></li>
-                        <li><img src="static/imgs/language/jquery.png" alt="" onclick="settheam(2,2)"></li>
-                        <li><img src="static/imgs/language/reactjs.png" alt="" onclick="settheam(2,3)"></li>
-                        <li><img src="static/imgs/language/opencv.png" alt="" onclick="settheam(2,4)"></li>
-                        <li><img src="static/imgs/language/django.png" alt="" onclick="settheam(2,5)"></li>
-                    </ul>
-                </DIV>
-                <div class="description skills-content" id="framework-description">
-                    this describes the framework
-                </div>
-                <DIV class="programimg-tools skills-content">
-                    <h2>TOOLS</h2>
-                    <ul>
-                        <li><img src="static/imgs/language/vscode.png" alt="" onclick="settheam(3,1)"></li>
-                        <li><img src="static/imgs/language/pycharm.jpg" alt="" onclick="settheam(3,2)"></li>
-                        <li><img src="static/imgs/language/Sublime_Text.png" alt="" onclick="settheam(3,3)"></li>
-                        <li><img src="static/imgs/language/postsql.png" alt="" onclick="settheam(3,4)"></li>
-                    </ul>
-                </DIV>
-                <div class="description skills-content" id="tools-description">
-                    this describes the tools
-                </div>
-                <DIV class="soft-skills skills-content">
-                    <h2>SOFT SKILLS</h2>
-                    <ul>
-                        <li><img src="static/imgs/language/word.png" alt="" onclick="settheam(4,1)"></li>
-                        <li><img src="static/imgs/language/powerpoint.png" alt="" onclick="settheam(4,2)"></li>
-                        <li><img src="static/imgs/language/excel.png" alt="" onclick="settheam(4,3)"></li>
-                    </ul>
-                </DIV>
-                <div class="description skills-content" id="softskills-description">
-                    this describes the soft skill
-                </div>
-                <DIV class="nontech-skills skills-content">
-                    <h2>NONTECHNICAL SKILLS</h2>
-                    <ul>
-                        <li><img src="static/imgs/language/camera.png" alt="" onclick="settheam(5,1)"></li>
-                        <li><img src="static/imgs/language/drawing.png" alt="" onclick="settheam(5,2)"></li>
-                    </ul>
-                </DIV>
-                <div class="description skills-content" id="nontechskills-description">
-                    this describes the nontech skill
+                <div class="skills_desc">
+                    <p class="Technologies">Server Sided Technologies: 
+                        <span onclick="clickedOnTech(this)" class="Tech_span">Python (Py)</span><img src="./static/imgs/language/python.png" alt="">, 
+                        <span onclick="clickedOnTech(this)" class="Tech_span">Java</span><img src="./static/imgs/language/java.png" alt="">
+                    </p>
+                    <p class="Framework">Framework: 
+                        <span onclick="clickedOnTech(this)" class="framework_span">Flask</span><img src="./static/imgs/language/flask.png" alt="">, 
+                        <span onclick="clickedOnTech(this)" class="framework_span">TensorFlow</span><img src="./static/imgs/language/Tensorflow.png" alt="">,
+                        <span onclick="clickedOnTech(this)" class="framework_span">Django</span><img src="./static/imgs/language/django.png" alt="">,
+                    </p>
+                    <p class="Technologies">Client Sided Technologies: 
+                        <span onclick="clickedOnTech(this)" class="Tech_span">HyperText Markup Language (HTML)</span><img src="./static/imgs/language/html.png" alt="">, 
+                        <span onclick="clickedOnTech(this)" class="Tech_span">Cascading Style Sheets (CSS)</span><img src="./static/imgs/language/css.png" alt="">, 
+                        <span onclick="clickedOnTech(this)" class="Tech_span">JavaScript  (JS)</span><img src="./static/imgs/language/javascript.png" alt="">
+                    </p>
+                    <p class="Framework">Framework: 
+                        <span onclick="clickedOnTech(this)" class="framework_span">ReactJS</span><img src="./static/imgs/language/reactjs.png" alt="">, 
+                        <span onclick="clickedOnTech(this)" class="framework_span">Redux</span><img src="./static/imgs/language/REDUX.png" alt="">
+                    </p>
+                    <p class="Technologies">Database Technologies: 
+                        <span onclick="clickedOnTech(this)" class="Tech_span">Structured Query Language (SQL)</span><img src="./static/imgs/language/SQL.png" alt="">,
+                        <span onclick="clickedOnTech(this)" class="Tech_span">MongoDB</span><img src="./static/imgs/language/mongodb.png" alt="">
+                    </p>
                 </div>
             </div>
         </div>
         </div>
-   
+        
         <div id="about" class="division vision about">
             
-        
-            <div class="date-time">
-                <div class="clock" id="clock">
-                    <div class="section">
-                        <p class="time" id="hours">00</p>
-                        <p class="name">HOURS</p>
-                    </div>
-                    <div class="section">
-                        <p class="time colon" >:</p>
-                    </div>
-                    <div class="section">
-                        <p class="time" id="minutes">00</p>
-                        <p class="name">MINUTES</p>
-                    </div>
-                    <div class="section">
-                        <p class="time colon">:</p>
-                    </div>
-                    <div class="section">
-                        <p class="time" id="seconds">00</p>
-                        <p class="name">SECONDS</p>
-                    </div>
-                </div>
-                <div class="date" id="date">
-                    <div class="date-day date-name" id="date-day">
-                        <p>SUN</p>
-                    </div>
-                    <div class="date-day date-name colon" id="date-day">
-                        <p>:</p>
-                    </div>
-                    <div class="date-date date-name" id="date-date">
-                        <p>01</p>
-                    </div>
-                    <!-- <div class="date-day date-name colon" id="date-day">
-                        <p>/</p>
-                    </div> -->
-                    <div class="date-month date-name" id="date-month">
-                        <p>23</p>
-                    </div>
-                    <!-- <div class="date-day date-name colon" id="date-day">
-                        <p>/</p>
-                    </div> -->
-                    <div class="date-year date-name" id="date-year">
-                        <p>4567</p>
-                    </div>
-                </div>
-            </div>
+            
+            
             <div class="biodata">
                 <h1 class="project-header">PROFILE</h1>
                 <div class="profile_name"><h2>SOUVIK</h2>
@@ -204,7 +124,7 @@
                 
                 <div class="deatiled-about">
                     <div>
-                        <img src="/static/imgs/frontprofile.jpg" alt="">
+                        <img src="/static/imgs/MainProfile.jpeg" alt="">
                         <div>
                             <div class="grey-line">
                                 <div style="width: 80%" class="progress">
@@ -391,24 +311,7 @@
                             <a href="https://github.com/SouvikBandyopadhyay/SpellBeeSolver">Code</a>
                         </div>
                     </div>
-                    <!-- <div class="item">
-                        <div class="inner">
-                            <h2>STOPWATCH</h2>
-                            <p>Language: HTML, CSS, JS</p>
-                            <P>framework: JQuery</P>
-                            <p class="description1">A STOPWATCH project using JS and JQuery library with dark and light mode, lap time counter and much more</p>
-                            <a href="https://souvikbandyopadhyay.github.io/Stopwatch/">link</a>
-                        </div>
-                    </div> 
-                    <div class="item">
-                        <div class="inner">
-                            <h2>STOPWATCH</h2>
-                            <p>Language: HTML, CSS, JS</p>
-                            <P>framework: JQuery</P>
-                            <p class="description1">A STOPWATCH project using JS and JQuery library with dark and light mode, lap time counter and much more</p>
-                            <a href="https://souvikbandyopadhyay.github.io/Stopwatch/">link</a>
-                        </div>
-                    </div> -->
+                    
                 </div>
             </div>
         </div>
@@ -552,6 +455,51 @@
                         <li><span style="font-family: cursive;">Creative</span></li>
                         <li><span>You</span></li>
                     </ul>
+                </div>
+                <div class="date-time">
+                    <div class="clock" id="clock">
+                        <div class="section">
+                            <p class="time" id="hours">00</p>
+                            <p class="name">HOURS</p>
+                        </div>
+                        <div class="section">
+                            <p class="time colon" >:</p>
+                        </div>
+                        <div class="section">
+                            <p class="time" id="minutes">00</p>
+                            <p class="name">MINUTES</p>
+                        </div>
+                        <div class="section">
+                            <p class="time colon">:</p>
+                        </div>
+                        <div class="section">
+                            <p class="time" id="seconds">00</p>
+                            <p class="name">SECONDS</p>
+                        </div>
+                    </div>
+                    <div class="date" id="date">
+                        <div class="date-day date-name" id="date-day">
+                            <p>SUN</p>
+                        </div>
+                        <div class="date-day date-name colon" id="date-day">
+                            <p>:</p>
+                        </div>
+                        <div class="date-date date-name" id="date-date">
+                            <p>01</p>
+                        </div>
+                        <!-- <div class="date-day date-name colon" id="date-day">
+                            <p>/</p>
+                        </div> -->
+                        <div class="date-month date-name" id="date-month">
+                            <p>23</p>
+                        </div>
+                        <!-- <div class="date-day date-name colon" id="date-day">
+                            <p>/</p>
+                        </div> -->
+                        <div class="date-year date-name" id="date-year">
+                            <p>4567</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="wrapper click-counter">
                     <h1> <span id="visits">0</span> Views </h1>
