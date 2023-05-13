@@ -239,7 +239,8 @@ function currentdate(){
 }
 
 function updatecounter(){
-    fetch('https://api.countapi.xyz/update/profile/resume/?amount=1')
+    fetch('https://api.countapi.xyz/update/profile/resume/?amount=1',{mode:"no-cors"})
+
         .then(function(res) { 
             return res.json()
         })
