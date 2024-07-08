@@ -5,7 +5,7 @@ function initialfunction() {
 }
 
 var home1 = document.getElementById("home");
-var projects1 = document.getElementById("projects");
+var projects1 = document.getElementById("achievements");
 // var projectoverlay = document.getElementById("projectoverlay");
 window.addEventListener("scroll", function(){
     let offset= window.pageYOffset;
